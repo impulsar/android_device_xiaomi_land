@@ -95,6 +95,8 @@ media.aac_51_output_enabled=true
 vidc.enc.narrow.searchrange=1
 drm.service.enabled=true
 vidc.disable.split.mode=1
+media.stagefright.legacyencoder=true
+media.stagefright.less-secure=true
 
 #netmgrd
 persist.data.netmgrd.qos.enable=true
