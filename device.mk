@@ -248,11 +248,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf
 
 # Wi-Fi
+# Wi-Fi
 PRODUCT_PACKAGES += \
+    libqsap_sdk \
     libQWiFiSoftApCfg \
+    libwpa_client \
     hostapd \
+    dhcpcd.conf \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    wcnss_service
 
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/land/land-vendor.mk)
