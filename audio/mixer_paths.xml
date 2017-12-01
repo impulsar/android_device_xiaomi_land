@@ -485,7 +485,6 @@
     </path>
 
     <path name="voice-call">
-	    <path name="adc1" />
 	<ctl name="DEC1 Volume" value="84" />
 	<ctl name="DEC2 Volume" value="84" />
         <ctl name="PRI_MI2S_RX_Voice Mixer CSVoice" value="1" />
