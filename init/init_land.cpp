@@ -162,7 +162,7 @@ void variant_properties()
     if (board_id == "S88537AA1") {
         property_set("ro.build.display.wtid", "SW_S88537AA1_V079_M20_MP_XM");
     } else if (board_id == "S88537AB1") {
-        property_set("ro.build.display.wtid", "SW_S88537AB1_V079_M20_MP_XM"); 
+        property_set("ro.build.display.wtid", "SW_S88537AB1_V079_M20_MP_XM");
     } else if (board_id == "S88537AC1") {
         property_set("ro.build.display.wtid", "SW_S88537AC1_V079_M20_MP_XM");
     } else if (board_id == "S88537BA1") {
