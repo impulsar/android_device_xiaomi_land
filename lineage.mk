@@ -40,5 +40,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=Xiaomi/land/land:6.0.1/MMB29M/V8.5.3.0.MALMIED:user/release-keys \
     PRIVATE_BUILD_DESC="land-user 6.0.1 MMB29M V8.5.3.0.MALMIED release-keys"
     
-    PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
+PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.product.model
