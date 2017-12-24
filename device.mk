@@ -251,6 +251,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf
 
+#Touchscreen
+PRODUCT_PACKAGES += \
+    libtinyxml2
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     libQWiFiSoftApCfg \
